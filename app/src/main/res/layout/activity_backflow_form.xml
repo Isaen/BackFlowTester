@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".backflow_form">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        //All of the pre-test information
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/purveyor"
+            android:textColor="@android:color/black" />
+        <EditText
+            android:id="@+id/txt_Purveyor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:inputType="text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/acct_no"
+            android:textColor="@android:color/black"/>
+        <EditText
+            android:id="@+id/txt_Acct_No"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:inputType="text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/permit_no"
+            android:textColor="@android:color/black"/>
+        <EditText
+            android:id="@+id/txt_Permit_No"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:inputType="text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/service_name"
+            android:textColor="@android:color/black"/>
+        <EditText
+            android:id="@+id/txt_Service_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:inputType="text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/service_physical_address"
+            android:textColor="@android:color/black"/>
+        <EditText
+            android:id="@+id/txt_Service_Physical_Address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:inputType="textPostalAddress"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/service_contact"
+            android:textColor="@android:color/black"/>
+        <EditText
+            android:id="@+id/txt_Service_Contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:inputType="textPersonName"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/service_email"
+            android:textColor="@android:color/black"/>
+        <EditText
+            android:id="@+id/txt_Service_Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:inputType="textEmailAddress"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/service_phone"
+            android:textColor="@android:color/black"/>
+        <EditText
+            android:id="@+id/txt_Service_Phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:inputType="phone"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/primary_service_provided"
+            android:textColor="@android:color/black"/>
+        <EditText
+            android:id="@+id/txt_Primary_Service_Provided"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:inputType="text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/owner_or_contractor"
+            android:textColor="@android:color/black"/>
+        <EditText
+            android:id="@+id/txt_Owner_Or_Contractor_Bus_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:inputType="textPersonName"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/postal_address"
+            android:textColor="@android:color/black"/>
+        <EditText
+            android:id="@+id/txt_Postal_Address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:inputType="textPostalAddress"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/owner_or_contractor_name"
+            android:textColor="@android:color/black"/>
+        <EditText
+            android:id="@+id/txt_Owner_Or_Contractor_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:inputType="textPersonName"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/owner_or_contractor_email"
+            android:textColor="@android:color/black"/>
+        <EditText
+            android:id="@+id/txt_Owner_or_Contractor_Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:inputType="textEmailAddress"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/owner_or_contractor_phone"
+            android:textColor="@android:color/black"/>
+        <EditText
+            android:id="@+id/txt_Owner_Or_Contractor_Phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:inputType="phone"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/new_or_existing"
+            android:textColor="@android:color/black"/>
+        <CheckBox
+            android:id="@+id/checkbox_new"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/is_new"
+            android:onClick="onCheckboxClicked"/>
+        <CheckBox
+            android:id="@+id/checkbox_existing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/is_existing"
+            android:onClick="onCheckboxClicked"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/new_serial_no."
+            android:textColor="@android:color/black"/>
+        <EditText
+            android:id="@+id/txt_New_Serial_No"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:inputType="text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/purpose_question"
+            android:textColor="@android:color/black"/>
+        <CheckBox
+            android:id="@+id/checkbox_purpose_primary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/purpose_contain"
+            android:onClick="onCheckboxClicked"/>
+        <CheckBox
+            android:id="@+id/checkbox_purpose_secondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/purpose_primary"
+            android:onClick="onCheckboxClicked"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/use_question"
+            android:textColor="@android:color/black"/>
+        <CheckBox
+            android:id="@+id/checkbox_use_domestic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/use_domestic"
+            android:onClick="onCheckboxClicked"/>
+        <CheckBox
+            android:id="@+id/checkbox_use_fire"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/use_fire_suppression"
+            android:onClick="onCheckboxClicked"/>
+        <CheckBox
+            android:id="@+id/checkbox_use_irrigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/use_irrigation"
+            android:onClick="onCheckboxClicked"/>
+        <CheckBox
+            android:id="@+id/checkbox_use_process"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/use_process"
+            android:onClick="onCheckboxClicked"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/assembly_type"
+            android:textColor="@android:color/black"/>
+        <CheckBox
+            android:id="@+id/checkbox_assembly_rp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reduced_pressure"
+            android:onClick="onCheckboxClicked"/>
+        <CheckBox
+            android:id="@+id/checkbox_assembly_dc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/double_check"
+            android:onClick="onCheckboxClicked"/>
+        <CheckBox
+            android:id="@+id/checkbox_assembly_pvb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pvb"
+            android:onClick="onCheckboxClicked"/>
+        <CheckBox
+            android:id="@+id/checkbox_assembly_other"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/other"
+            android:onClick="onCheckboxClicked"/>
+
+        <EditText
+            android:id="@+id/txt_assembly_other"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/manufacturer"
+            android:textColor="@android:color/black"/>
+        <EditText
+            android:id="@+id/txt_Manufacturer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:inputType="text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/model_no."
+            android:textColor="@android:color/black"/>
+        <EditText
+            android:id="@+id/txt_ModelNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:inputType="text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/size"
+            android:textColor="@android:color/black"/>
+        <EditText
+            android:id="@+id/txt_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:inputType="number"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/serial_no."
+            android:textColor="@android:color/black"/>
+        <EditText
+            android:id="@+id/txt_Serial_No"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:inputType="text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/date_installed"
+            android:textColor="@android:color/black"/>
+        <EditText
+            android:id="@+id/txt_Date_Installed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:inputType="date"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/last_inspection"
+            android:textColor="@android:color/black"/>
+        <EditText
+            android:id="@+id/txt_Last_Inspection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:inputType="date"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/line_pressure"
+            android:textColor="@android:color/black"/>
+        <EditText
+            android:id="@+id/txt_Line_Pressure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:inputType="number"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/location"
+            android:textColor="@android:color/black"/>
+        <EditText
+            android:id="@+id/txt_Location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:inputType="text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pressure_reducing_valve"
+            android:textColor="@android:color/black"/>
+        <CheckBox
+            android:id="@+id/checkbox_prv_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/yes"
+            android:onClick="onCheckboxClicked"/>
+        <CheckBox
+            android:id="@+id/checkbox_prv_no"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/no"
+            android:onClick="onCheckboxClicked"/>
+
+        <Button
+            android:id="@+id/btn_backflow_page_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/next_page" />
+
+
+        <!-- TEMPLATE FOR THE OTHER NECESSARY INPUT
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/placeholder"
+                    android:textColor="@android:color/black"/>
+                <EditText
+                    android:id="@+id/PLACEHOLDERID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:inputType="text"/>
+                -->
+
+
+</LinearLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+
