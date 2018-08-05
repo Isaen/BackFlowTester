@@ -11,45 +11,51 @@
         android:orientation="vertical">
 
 
-
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/check_valve_1"
             android:textColor="@android:color/black" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/closed_tight"
-            android:textColor="@android:color/black"/>
+            android:textColor="@android:color/black" />
+
         <CheckBox
             android:id="@+id/checkbox_cv1_closed_yes"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:onClick="onCheckboxClicked"
             android:text="@string/yes" />
+
         <CheckBox
             android:id="@+id/checkbox_cv1_closed_no"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:onClick="onCheckboxClicked"
             android:text="@string/no" />
+
         <EditText
             android:id="@+id/txt_cv1_psid"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/psid"/>
+            android:hint="@string/psid" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/leaked"
-            android:textColor="@android:color/black"/>
+            android:textColor="@android:color/black" />
+
         <CheckBox
             android:id="@+id/checkbox_cv1_leaked_yes"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:onClick="onCheckboxClicked"
             android:text="@string/yes" />
+
         <CheckBox
             android:id="@+id/checkbox_cv1_leaked_no"
             android:layout_width="wrap_content"
@@ -61,40 +67,47 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/check_valve_2"
-            android:textColor="@android:color/black"/>
+            android:textColor="@android:color/black" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/closed_tight"
-            android:textColor="@android:color/black"/>
+            android:textColor="@android:color/black" />
+
         <CheckBox
             android:id="@+id/checkbox_cv2_closed_yes"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:onClick="onCheckboxClicked"
             android:text="@string/yes" />
+
         <CheckBox
             android:id="@+id/checkbox_cv2_closed_no"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:onClick="onCheckboxClicked"
             android:text="@string/no" />
+
         <EditText
             android:id="@+id/cv2_psid"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/psid"/>
+            android:hint="@string/psid" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/leaked"
-            android:textColor="@android:color/black"/>
+            android:textColor="@android:color/black" />
+
         <CheckBox
             android:id="@+id/checkbox_cv2_leaked_yes"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:onClick="onCheckboxClicked"
             android:text="@string/yes" />
+
         <CheckBox
             android:id="@+id/checkbox_cv2_leaked_no"
             android:layout_width="wrap_content"
@@ -106,30 +119,35 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/dprv"
-            android:textColor="@android:color/black"/>
+            android:textColor="@android:color/black" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/opened_at"
-            android:textColor="@android:color/black"/>
+            android:textColor="@android:color/black" />
+
         <EditText
             android:id="@+id/txt_rvPSID"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/psid"/>
+            android:hint="@string/psid" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/did_it_open"
-            android:textColor="@android:color/black"/>
+            android:textColor="@android:color/black" />
+
         <CheckBox
-            android:id="@+id/checkbox_diditopen_yes"
+            android:id="@+id/checkbox_rv_open_yes"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:onClick="onCheckboxClicked"
             android:text="@string/yes" />
+
         <CheckBox
-            android:id="@+id/checkbox_diditopen_no"
+            android:id="@+id/checkbox_rv_open_no"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:onClick="onCheckboxClicked"
@@ -139,23 +157,27 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/air_inlet"
-            android:textColor="@android:color/black"/>
+            android:textColor="@android:color/black" />
+
         <EditText
             android:id="@+id/txt_airin_psid"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/psid"/>
+            android:hint="@string/psid" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/leaked"
-            android:textColor="@android:color/black"/>
+            android:textColor="@android:color/black" />
+
         <CheckBox
             android:id="@+id/checkbox_airin_leaked_yes"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:onClick="onCheckboxClicked"
             android:text="@string/yes" />
+
         <CheckBox
             android:id="@+id/checkbox_airin_leaked_no"
             android:layout_width="wrap_content"
@@ -163,20 +185,97 @@
             android:onClick="onCheckboxClicked"
             android:text="@string/no" />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/shut_off_valve1"
+            android:textColor="@android:color/black" />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/closed_tight"
+            android:textColor="@android:color/black" />
 
+        <CheckBox
+            android:id="@+id/checkbox_shutoff1_closed_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/yes" />
 
+        <CheckBox
+            android:id="@+id/checkbox_shutoff1_closed_no"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/yes" />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/leaked"
+            android:textColor="@android:color/black" />
 
+        <CheckBox
+            android:id="@+id/checkbox_shutoff1_leaked_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/yes" />
 
+        <CheckBox
+            android:id="@+id/checkbox_shutoff1_leaked_no"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/yes" />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/shut_off_valve2"
+            android:textColor="@android:color/black" />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/closed_tight"
+            android:textColor="@android:color/black" />
 
+        <CheckBox
+            android:id="@+id/checkbox_shutoff2_closed_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/yes" />
 
+        <CheckBox
+            android:id="@+id/checkbox_shutoff2_closed_no"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/yes" />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/leaked"
+            android:textColor="@android:color/black" />
 
+        <CheckBox
+            android:id="@+id/checkbox_shutoff2_leaked_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/yes" />
 
-
+        <CheckBox
+            android:id="@+id/checkbox_shutoff2_leaked_no"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/yes" />
 
 
     </LinearLayout>
